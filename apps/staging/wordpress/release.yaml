@@ -12,3 +12,6 @@ spec:
         kind: HelmRepository
         name: wordpress
   interval: 50m
+  values:
+    service:
+      type: ClusterIP
